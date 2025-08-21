@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  
+    <style>
+      .container-fluid {
+        background-image: url(" images/attachment-su.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 97vw;
+        height: 94vh;
+        filter: drop-shadow(20px 20px 30px green);
+        position: relative;
+      }
+      .header1 {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        clip-path: polygon(0 0, 100% 0, 95% 100%, 6% 100%);
+      }
+      .header2 {
+        width: 100%;
+        font-size: 40px;
+        clip-path: polygon(7% 0, 95% 0, 100% 90%, 0 116%);
+        position: relative;
+      }
+      .logo {
+        position: absolute;
+        left: 90px;
+      }
+      .button1 {
+        position: absolute;
+        right: 90px;
+      }
+      .ul1 {
+        background-image: url("images/ul.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        filter: drop-shadow(10px 10px 20px white);
+        border-radius: 10px;
+      }
+      .ul1 li {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        list-style-type: none;
+        font-size: 20px;
+        color: white;
+      }
+      
+      .profile_image {
+        filter: drop-shadow(10px 10px 20px white);
+      }
+      .instructor {
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .instructor:hover {
+        background-color: mediumorchid !important;
+      }
+      .ul2 {
+        height: 390px;
+        border-radius: 10px;
+        background-image: url("images/mountain.jpg");
+        text-shadow: 10px 10px 20px black;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        filter: drop-shadow(10px 10px 20px white);
+        color: white !important;
+      }
+      .ul2 li {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        list-style-type: none;
+        font-size: 20px;
+      }
+      .footer{
+        position: absolute;
+        bottom: -150px;
+        left: -2px;
+      }
+      h5{
+        border-radius: 20px;
+        background-color: aqua;
+        text-shadow: 3px 3px 5px rgb(214, 214, 232);
+      }
+      a:hover{
+        background-color: aqua !important;
+      }
+      .ul1:hover{
+        cursor: pointer;
+        filter: drop-shadow(40px 40px 100px white);
+      }
+      .ul2:hover{
+        cursor: pointer;
+        filter: drop-shadow(40px 40px 100px white);
+      }
+      img:hover{
+        cursor: pointer;
+        filter: drop-shadow(40px 40px 100px white);
+
+      }
+    </style></head
+  >''
+  <body>
+    <div class="container-fluid">
+      <h1 class="text-center bg-success text-white header1">
+        IT HOUSE AND TECHNICAL COLLEGE
+      </h1>
+      <h1
+        class="text-center bg-danger text-white header2"
+        style="font-family: 'Times New Roman', Times, serif"
+      >
+        <img
+          src="images/logo.jpg"
+          style="width: 50px; height: 50px; border-radius: 50%"
+          class="float-left logo"
+        />
+
+        WEB DEVELOPMENT COURSE
+        <a
+          class="btn btn-warning float-right button1 mt-1 text-white"
+          style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+        href="form.php">
+          Apply Now
+    </a>
+      </h1>
+      <div class="row">
+        <div class="col-sm-4 first">
+          <h3 class="bg-info text-white text-center instructor">INSTRUCTOR</h3>
+          <img
+            src="images/unnamed.jpg"
+            style="width: 100%; height: 390px; border-radius: 10px"
+            class="profile_image"
+          />
+        </div>
+        <div class="col-sm-4">
+          <h3 class="bg-info text-white text-center instructor">We offer</h3>
+          <ul class="list-group list-group-flush text-center ul1">
+            <li class="list-item-action">HTML</li>
+            <li class="list-item-action">CSS</li>
+            <li class="list-item-action">JAVA SCRIPT</li>
+            <li class="list-item-action">BOOTSTRAP</li>
+            <li class="list-item-action">PHP</li>
+            <li class="list-item-action">LARAVEL</li>
+            <li class="list-item-action">JQUERY</li>
+            <li class="list-item-action">REACT</li>
+            <li class="list-item-action">ANGULAR</li>
+            <li class="list-item-action">VUE.JS</li>
+            <li class="list-item-action">GIT</li>
+            <li class="list-item-action">GIT HUB</li>
+            <li class="list-item-action">LIVE PROJECT</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="bg-info text-white text-center instructor">
+            Policy and Rules
+          </h3>
+          <ul class="list-group list-group-flush text-start text-dark ul2">
+            <li class="list-item-action ml-3">Join 5–10 mins early</li>
+            <li class="list-item-action ml-3">No entry after 15 mins</li>
+            <li class="list-item-action ml-3">Attendance at start & end</li>
+            <li class="list-item-action ml-3">
+              Follow facilitator’s instructions
+            </li>
+            <li class="list-item-action ml-3">Bring all required materials</li>
+            <li class="list-item-action ml-3">Bring laptop fully charged</li>
+            <li class="list-item-action ml-3">Follow coding standards</li>
+            <li class="list-item-action ml-3">No unrelated browsing</li>
+            <li class="list-item-action ml-3">Ask questions clearly</li>
+            <li class="list-item-action ml-3">Respect session timings</li>
+            <li class="list-item-action ml-3">Pay fee before 5th</li>
+
+      
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <h5 class="footer col-sm-12 text-dark text-center">Address : Fatha Morr Near Gomal University D I KHAN
+                <br> Phone:01212121212
+            </h5>
+        </div>
+      </div>
+    
+    </div>
+  </body>
+</html>
